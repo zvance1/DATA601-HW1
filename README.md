@@ -10,7 +10,7 @@ For this project, I chose to perform data analysis on Baltimore City crime data.
 [Conclusions](https://github.com/zvance1/DATA601-HW1#conclusions) -
 [Project Info](https://github.com/zvance1/DATA601-HW1#project-info) -
 
-The data in its CSV format is located in the data directory of this repository.  Also in this data directory is the csv I wrote after cleaning the data.  In the notebooks repository you will find three jupyter notebooks - one for the loading and cleaning of the data, one for the exploring of the data, and lastly the technical report.
+The data in its CSV format is located in the data directory of this repository.  Also in this data directory is the csv I wrote after cleaning the data.  In the notebooks repository you will find three jupyter notebooks - one for the loading and cleaning of the data, one for the exploring of the data, and lastly the technical report.  The images directory contains the visualizations used for analyzing the data.
 
 # Data
 To perform this analysis, I will use a data set named "BPD Part 1 Victim Based Crime Data" from Open Baltimore (Here: https://data.baltimorecity.gov/Public-Safety/BPD-Part-1-Victim-Based-Crime-Data/wsfq-mvij/data).  This data is updated every Monday, with a 9 day time lag to minimize changes to the data as records move throughout the BPD review process.  I exported this data as a CSV file and began the cleaning of it from there.  The data contains 16 columns and 313,634 rows.  This should be plenty of data to get a good idea of trends and potentially for predictive analytics as well.  One limitation for predictive analytics may be that this data is very qualitative, with most values being strings input into machine learning algorithms may be slightly more difficult depending on the algorithm.  A concern is also being able to perform exploratory analysis on things like the address and premise, as these may prove important but difficult to analyze at a large general scale.
@@ -47,7 +47,8 @@ The following are the steps, techniques and assumptions I used to clean the data
 
 # Conclusions
 Each question was answered through analysis of the data. In summary:
-* There is a trend between the time of day and the number of crimes, with the minimum amounts of crime happening between 4am and 6am, rising relatively steadily throughout the day and then hits a maximum around 4pm with the number remaining higher through roughly 10pm, and another little spike around mindnight (12am/ hour 0). In general crimes tend to peak when the highest number of people are out and about.
+* There is a trend between the time of day and the number of crimes, with the minimum amounts of crime happening between 4am and 6am, rising relatively steadily throughout the day and then hits a maximum around 4pm with the number remaining higher through roughly 10pm, and another little spike around mindnight (12am/ hour 0). In general crimes tend to peak when the highest number of people are out and about. Visualization here:
+![price.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/crimes_per_hour.png)
 * There is a trend between time of day and weapon used - the biggest takeaway is that firearms are used more in the later hours of the night.
 * There is a trend between month of the year/season and the number of crimes - warmer months tend to have more crime. As more people tend to stay put and indoors in the colder months, less crime takes place.
 * There is not a deliberate trend between day of the week and crime - if anything, slightly more crime happens during the week and we say that this may be due to the fact that Baltimore may be higher populated during the week as all the business professionals work weekdays.
