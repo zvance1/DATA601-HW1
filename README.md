@@ -48,14 +48,21 @@ The following are the steps, techniques and assumptions I used to clean the data
 # Conclusions
 Each question was answered through analysis of the data. In summary:
 * There is a trend between the time of day and the number of crimes, with the minimum amounts of crime happening between 4am and 6am, rising relatively steadily throughout the day and then hits a maximum around 4pm with the number remaining higher through roughly 10pm, and another little spike around mindnight (12am/ hour 0). In general crimes tend to peak when the highest number of people are out and about. Visualization here:
-![price.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/crimes_per_hour.png)
-* There is a trend between time of day and weapon used - the biggest takeaway is that firearms are used more in the later hours of the night.
-* There is a trend between month of the year/season and the number of crimes - warmer months tend to have more crime. As more people tend to stay put and indoors in the colder months, less crime takes place.
-* There is not a deliberate trend between day of the week and crime - if anything, slightly more crime happens during the week and we say that this may be due to the fact that Baltimore may be higher populated during the week as all the business professionals work weekdays.
-* There is a pattern in the number of crimes inside vs. outside based on the time of year - in the warmer months more crimes take place outside; in the colder months, more crime tends to take place indoors.
-* There is a pattern in the location of the crime based on the weapon used. When a firearm is used, it is more often than not used outside. On the other hand, when hands are used it is more often than not used inside. So, police should be aware of this fact and understand when a call for a shooting comes in, it is likely an outdoor act.
-* There is not a distinct pattern in the weapon used based on district - each district has a relatively similar distribution of weapons used, and police of all types should exist in all districts.
-* There is a pattern in the location (inside vs. outside) and the weapon used - given that a crime is outside, over 60% of the time, a firearm was used, whereas a knife ~15% of the time, and hands ~5% of the time. On the other hand, when a crime is commited inside, a firearm was used roughly 33% of the time, knife ~20% and hands ~10%. Police should have these numbers in mind when stationed to spot crime to know what is likely to happen given the location/scenario they are in.
+![crimes_per_hour.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/crimes_per_hour.png)
+* There is a trend between time of day and weapon used - the biggest takeaway is that firearms are used more in the later hours of the night. Visualization here:
+![weapon_per_time.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/weapon_per_time.png)
+* There is a trend between month of the year/season and the number of crimes - warmer months tend to have more crime. As more people tend to stay put and indoors in the colder months, less crime takes place.  Visualization here:
+![crimes_per_month.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/crimes_per_month.png)
+* There is not a deliberate trend between day of the week and crime - if anything, slightly more crime happens during the week and we say that this may be due to the fact that Baltimore may be higher populated during the week as all the business professionals work weekdays.  Visualization here:
+![crimes_per_day.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/crimes_per_day.png)
+* There is a pattern in the number of crimes inside vs. outside based on the time of year - in the warmer months more crimes take place outside; in the colder months, more crime tends to take place indoors.  Visualization here:
+![inside_outside_per_month.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/inside_outside_per_month.png)
+* There is a pattern in the location of the crime based on the weapon used. When a firearm is used, it is more often than not used outside. On the other hand, when hands are used it is more often than not used inside. So, police should be aware of this fact and understand when a call for a shooting comes in, it is likely an outdoor act.  Visualization here:
+![weapon_per_location.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/weapon_per_location.png)
+* There is a pattern in the location (inside vs. outside) and the weapon used - given that a crime is outside, over 60% of the time, a firearm was used, whereas a knife ~15% of the time, and hands ~5% of the time. On the other hand, when a crime is commited inside, a firearm was used roughly 33% of the time, knife ~20% and hands ~10%. Police should have these numbers in mind when stationed to spot crime to know what is likely to happen given the location/scenario they are in. Visualization here:
+![location_per_weapon.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/location_per_weapon.png)
+* There is not a distinct pattern in the weapon used based on district - each district has a relatively similar distribution of weapons used, and police of all types should exist in all districts.  Visualization here:
+![weapon_per_district.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/weapon_per_district.png)
 
 The possibilities for exploration of this dataset are endless, these are some of the trends I saw as most important for police officers. Continued exploration could involve setting up a chat with an officer to determine what trends and analysis would actually be most helpful to them.
 
