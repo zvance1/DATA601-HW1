@@ -25,6 +25,7 @@ Questions to be answered:
    * Is there a pattern in the location of a crime (inside vs. outside) based on the weapon used?
    * Is a certain weapon more likely, given whether the crime was inside or outside?
    * Is there a pattern in the weapon used based on district?
+   * Is there a pattern in the weapon used per description?
 
 Techniques:
 I use pandas to import, clean, and explore the data after importing from excel into a dataframe.  The first step after reading the CSV file that was exported straight from Open Baltimore is to clean the data in preparation for analysis.  Visualizations are created for each of the above questions (in the technical report notebook) to help explain the trends in the data.
@@ -63,6 +64,8 @@ Each question was answered through analysis of the data. In summary:
 ![location_per_weapon.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/location_per_weapon.png)
 * There is not a distinct pattern in the weapon used based on district - each district has a relatively similar distribution of weapons used, and police of all types should exist in all districts.  Visualization here:
 ![weapon_per_district.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/weapon_per_district.png)
+* For the description of each crime, we can see the distribution of each weapon used.  The conclusion is that police will be able to know what weapon, if any, is likely to have been used or to be used given a particular crime took or might take place in the future. Visualization here:
+![weapon_per_description.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/weapon_per_description.png)
 
 The possibilities for exploration of this dataset are endless, these are some of the trends I saw as most important for police officers. Continued exploration could involve setting up a chat with an officer to determine what trends and analysis would actually be most helpful to them.
 
