@@ -7,6 +7,7 @@ For this project, I chose to perform data analysis on Baltimore City crime data.
 To perform this analysis, I will use a data set named "BPD Part 1 Victim Based Crime Data" from Open Baltimore (Here: https://data.baltimorecity.gov/Public-Safety/BPD-Part-1-Victim-Based-Crime-Data/wsfq-mvij/data).  This data is updated every Monday, with a 9 day time lag to minimize changes to the data as records move throughout the BPD review process.  I exported this data as a CSV file and began the cleaning of it from there.  The data contains 16 columns and 313,634 rows.  This should be plenty of data to get a good idea of trends and potentially for predictive analytics as well.  One limitation for predictive analytics may be that this data is very qualitative, with most values being strings input into machine learning algorithms may be slightly more difficult depending on the algorithm.  A concern is also being able to perform exploratory analysis on things like the address and premise, as these may prove important but difficult to analyze at a large general scale.
 
 # How to Navigate
+#conclusions
 The data in its CSV format is located in the data directory of this repository.  Also in this directory is the csv I wrote after cleaning the data.  In the notebooks repository you will find two jupyter notebooks - one for the loading and cleaning of the data, and one for the exploring of the data.  Python3 is used to run the code in these files with the most up to date packages from anaconda as of September 14, 2020.
 
 # Methods
